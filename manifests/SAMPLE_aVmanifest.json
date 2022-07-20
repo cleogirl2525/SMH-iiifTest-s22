@@ -2,86 +2,73 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "https://iiif.io/api/cookbook/recipe/0017-transcription-av/manifest.json",
   "type": "Manifest",
+
+
   "label": {
-    "en": [
-      "CHARLOTTE, 042316 PT 2"
-    ]
+    "en": ["CHARLOTTE, 042316 PT 2"]
   },
-
-
   "metadata": [
     {
-      "label": {
-        "en": [
-          "Creator"
-        ]
-      },
-      "value": {
-        "en": [
-          "Black Lunch Table"
-        ]
-      }
+      "label": {"en": [ "Creator"] },
+      "value": {"en": ["Black Lunch Table"]}
     },
     {
-      "label": {
-        "en": [
-          "Date"
-        ]
-      },
-      "value": {
-        "en": [
-          "c. 2012"
-        ]
-      }
+      "label": {"en": ["Published"]},
+      "value": {"en": ["c. 2012"]}
     },
     {
-      "label": {
-        "en": [
-          "Description"
-        ]
-      },
-      "value": {
-        "en": [
-          "Audio Describing ZYZ over a period of this hour, this many seconds, this many minutes."
-        ]
-      }
+      "label": {"en": [ "Description"]},
+      "value": {"en": ["Audio Describing ZYZ over a period of this hour, this many seconds, this many minutes."]}
     },
     {
-      "label": {
-        "en": [
-          "Reference"
-        ]
-      },
-      "value": {
-        "en": [
-          "042316 PT 2"
-        ]
+      "label": {"en": ["Reference"]},
+      "value": {"en": ["042316 PT 2"]}
+    },
+    {
+      "label": { "en": [ "Notes" ] },
+      "value": { "en": [ "Text of note 1", "Text of note 2"]
       }
     }
   ],
-    "label": {
-      "en": [
-        "Whatever we Need"
-      ]
-    },
-    "value": {
-      "en": [
-        "We can put right here"
-      ]
-    },
+  
+  
   "requiredStatement": {
-    "label": {
-      "en": [
-        "Participants"
-      ]
-    },
-    "value": {
-      "en": [
-        "List Info Here Perhaps"
-      ]
+    "label": { "en": ["Attribution"]},
+    "value": { "en": [ "List Info Here "]
     }
   },
 
+
+  "homepage": [
+    {
+      "id": "https://blacklunchtable.com/",
+      "type": "Text",
+      "label": { "en": [ "Home page for Audio Sample" ] },
+      "format": "text/html"
+    }
+  ],
+  "seeAlso": [
+    {
+      "id": "https://example.org/XXX/XXX/XXX.xml",
+      "type": "Dataset",
+      "format": "text/xml",
+      "profile": "https://example.org/XXX/XXX"
+    }
+  ],
+  "rendering": [
+    {
+      "id": "https://cleogirl2525.github.io/SMH-iiifTest-s22/images/sampleTranscriptBLT.txt",
+      "type": "Text",
+      "label": { "en": ["Transcript"]},
+      "format": "text/txt"
+    }
+  ],
+  "partOf": [
+    {
+      "id": "https://example.org/collections/XXX/",
+      "type": "Collection"
+    }
+  ],
 
   "items": [
     {
@@ -108,21 +95,8 @@
             }
           ]
         }
-      ],
-
-      
-      "rendering": [
-        {
-          "id": "https://stage-blttranscript.s3.us-east-2.amazonaws.com/TestTranscript.txt",
-          "type": "Text",
-          "label": {
-            "en": [
-              "Transcript"
-            ]
-          },
-          "format": "text/txt"
-        }
       ]
+
     }
   ]
 }
