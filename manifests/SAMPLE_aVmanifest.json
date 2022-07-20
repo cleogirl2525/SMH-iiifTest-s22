@@ -55,20 +55,13 @@
       "profile": "https://example.org/XXX/XXX"
     }
   ],
-  "rendering": [
-    {
-      "id": "https://cleogirl2525.github.io/SMH-iiifTest-s22/images/sampleTranscriptBLT.txt",
-      "type": "Text",
-      "label": { "en": ["Transcript"]},
-      "format": "text/txt"
-    }
-  ],
   "partOf": [
     {
       "id": "https://example.org/collections/XXX/",
       "type": "Collection"
     }
   ],
+
 
   "items": [
     {
@@ -95,8 +88,15 @@
             }
           ]
         }
+      ],
+      "rendering": [
+        {
+          "id": "https://cleogirl2525.github.io/SMH-iiifTest-s22/images/sampleTranscriptBLT.txt",
+          "type": "Text",
+          "label": { "en": ["Transcript"]},
+          "format": "text/txt"
+        }
       ]
-
     }
   ]
 }
