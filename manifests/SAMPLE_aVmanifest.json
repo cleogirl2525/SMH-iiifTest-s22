@@ -26,18 +26,17 @@
     },
     {
       "label": { "en": [ "Notes" ] },
-      "value": { "en": [ "Text of note 1", "Text of note 2"]
+      "value": { "en": [ "Text of note 1", "Text of note 2", "Text of Note 3"]
       }
     }
   ],
   
   
   "requiredStatement": {
-    "label": { "en": ["Attribution"]},
+    "label": { "en": ["Attribution or Whatever We Want"]},
     "value": { "en": [ "List Info Here "]
     }
   },
-
 
   "homepage": [
     {
@@ -55,6 +54,14 @@
       "profile": "https://example.org/XXX/XXX"
     }
   ],
+  "rendering": [
+    {
+      "id": "https://cleogirl2525.github.io/SMH-iiifTest-s22/images/sampleTranscriptBLT.txt",
+      "type": "Text",
+      "label": { "en": ["Transcript"]},
+      "format": "text/txt"
+    }
+  ],
   "partOf": [
     {
       "id": "https://example.org/collections/XXX/",
@@ -62,7 +69,7 @@
     }
   ],
 
-
+  
   "items": [
     {
       "id": "https://iiif.io/api/cookbook/recipe/0017-transcription-av/canvas",
@@ -88,15 +95,11 @@
             }
           ]
         }
-      ],
-      "rendering": [
-        {
-          "id": "https://cleogirl2525.github.io/SMH-iiifTest-s22/images/sampleTranscriptBLT.txt",
-          "type": "Text",
-          "label": { "en": ["Transcript"]},
-          "format": "text/txt"
-        }
       ]
+
+
+
+      
     }
   ]
 }
